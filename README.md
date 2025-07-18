@@ -90,7 +90,7 @@ See the `LICENSE` file for details.
 
 ## Contact
 
-- **Corresponding Author**: huayanmu5@gmail.com  
+- **E-mail**: huayanmu5@gmail.com  
 - **Affiliation**: China University of Petroleum (Beijing), College of Artificial Intelligence
 
 ---
