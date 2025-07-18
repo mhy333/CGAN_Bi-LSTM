@@ -7,7 +7,7 @@ This repository supports the manuscript:
 
 ---
 
-## 📌 Project Description
+## Project Description
 
 This study proposes a novel framework to improve lost circulation event diagnosis in drilling operations. The framework integrates:
 
@@ -19,7 +19,7 @@ This CGAN_Bi-LSTM model achieves high performance in both accuracy and generaliz
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Environment Setup
 
@@ -39,7 +39,7 @@ You can run each notebook in order using Jupyter.
 
 ---
 
-## 📁 Data Availability
+## Data Availability
 
 Due to confidentiality agreements, the full dataset is not publicly available.  
 We provide an anonymized **sample file** with 10 representative records:
@@ -53,7 +53,7 @@ For further collaboration, please contact the corresponding author.
 
 ---
 
-## 🧠 Model Description
+## Model Description
 
 - **CGAN** is used to augment minority class samples by conditioning on leak types.
 - **Bi-LSTM** architecture:
@@ -65,7 +65,7 @@ For further collaboration, please contact the corresponding author.
 
 ---
 
-## 📊 Results
+## Results
 
 Experimental outputs are saved in:
 
@@ -81,14 +81,14 @@ Key findings:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.  
 See the `LICENSE` file for details.
 
 ---
 
-## 📬 Contact
+## Contact
 
 - **Corresponding Author**: huayanmu5@gmail.com  
 - **Affiliation**: China University of Petroleum (Beijing), College of Artificial Intelligence
