@@ -1,0 +1,45 @@
+Data Description for Well_B_MLR_example10.csv
+
+This file contains a sample of 10 rows from the lost circulation dataset used in the CGAN_Bi-LSTM project. It is intended to provide a small representative subset of the full dataset for demonstration and testing purposes.
+
+Columns:
+
+1. WellName                      - Name/ID of the well (categorical)
+2. WellType                      - Type/category of the well (categorical)
+3. WellDepth                     - Total measured depth of the well (meters)
+4. TVD                           - True Vertical Depth (meters)
+5. Layer                         - Geological layer at the measurement point (categorical)
+6. Lithology                     - Rock type description (categorical)
+7. FormationStructure            - Geological formation structure type (categorical)
+8. WOB                           - Weight on Bit, force applied on drill bit (kN or appropriate unit)
+9. RPM                           - Rotations per minute of drill string (rpm)
+10. TOR                          - Torque applied on drill string (Nm or appropriate unit)
+11. PumpPressure                 - Pump pressure during drilling (MPa or appropriate unit)
+12. Displacement                 - Drilling fluid displacement rate (L/s or appropriate unit)
+13. Density                      - Drilling fluid density (g/cm³ or kg/m³)
+14. ECD                          - Equivalent Circulating Density (g/cm³ or kg/m³)
+15. HookLoad                     - Load measured at the hook (kN or appropriate unit)
+16. ROP                          - Rate of Penetration, drilling speed (m/h or ft/h)
+17. DrillTime                    - Time duration of drilling (hours or minutes)
+18. DC                           - Drill string circulation status (categorical or numeric)
+19. LagTime                      - Time lag in system response (seconds or minutes)
+20. OutletFlow                   - Flow rate of drilling fluid at outlet (L/s or m³/h)
+21. FormationPressureGradient    - Pressure gradient of formation fluid (MPa/m or psi/ft)
+22. FormationRupturePressureGradient - Pressure gradient causing formation rupture (MPa/m or psi/ft)
+23. TheoreticalMaximumDisplacement - Maximum theoretical fluid displacement (L/s or other)
+24. DisPumpRatio                 - Ratio of displacement to pump capacity (dimensionless)
+25. LostCirculation              - Label indicating lost circulation occurrence (0 = No, 1 = Yes)
+26. MLR                          - Multidimensional Lost Circulation Risk Index (numeric)
+  
+Notes:
+
+- The full dataset includes many more samples and features than this subset.
+- Missing values have been handled or excluded in this example dataset.
+- The MLR index is derived from domain knowledge and serves as a key feature in model training.
+
+Usage:
+
+- This dataset is used for data augmentation and model training/testing in the project.
+- For more detailed data descriptions, please refer to the corresponding published works and supplementary materials.
+
+
