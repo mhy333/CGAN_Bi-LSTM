@@ -1,0 +1,73 @@
+Results Descriptions for CGAN_Bi-LSTM Project
+
+This folder contains detailed experimental results from the study, which includes:
+- Figures: Visualizations of model performance, loss convergence, and comparisons
+- Tables: Quantitative evaluation metrics of different models and configurations
+
+Folder Structure:
+------------------
+results/
+├── figures/
+│   ├── roc_curve_cgan_bilstm.png
+│   ├── pr_curve_cgan_bilstm.png
+│   ├── training_loss_curve_cgan.png
+│   ├── confusion_matrix_comparison.png
+│   ├── model_comparison_bar.png
+│   ├── knowledge_embedding_effects.png
+│   └── ... (additional performance visualizations)
+├── tables/
+│   ├── performance_metrics_all_models.xlsx
+│   ├── knowledge_embedding_comparison.xlsx
+│   └── ... (raw result tables and statistical summaries)
+
+Figures Description:
+---------------------
+1. roc_curve_cgan_bilstm.png  
+   - ROC curve of the CGAN_Bi-LSTM model  
+   - Shows the trade-off between true positive rate and false positive rate  
+   - AUC > 0.98
+
+2. pr_curve_cgan_bilstm.png  
+   - Precision-Recall curve for CGAN_Bi-LSTM model  
+   - Indicates performance under imbalanced data conditions  
+
+3. training_loss_curve_cgan.png  
+   - Training loss trend of CGAN (generator and discriminator) over epochs  
+   - Demonstrates convergence behavior  
+
+4. confusion_matrix_comparison.png  
+   - Comparison of confusion matrices from different models  
+   - Helps visualize the distribution of true/false positives and negatives  
+
+5. model_comparison_bar.png  
+   - Bar chart showing performance (accuracy, F1, AUC) of each model  
+   - Includes LSTM/Bi-LSTM under raw, SMOTE, and CGAN conditions  
+
+6. knowledge_embedding_effects.png  
+   - Effects of different knowledge embedding strategies (MLR-in, MLR-at, etc.)  
+   - Highlights improvements in accuracy and generalization
+
+7. other pictures……
+
+Tables Description:
+---------------------
+1. performance_metrics_all_models.csv  
+   - Contains accuracy, precision, recall, F1-score, and AUC of all 9 baseline models  
+   - Each row corresponds to one model (e.g., bi-lstm_raw, lstm_smote, etc.)
+
+2. knowledge_embedding_comparison.csv  
+   - Detailed results of the 4 knowledge-enhanced models  
+   - Comparison across multiple metrics and datasets  
+
+Usage:
+-------
+These results were used to support key findings in the manuscript, including:
+- Model selection (CGAN_Bi-LSTM outperforms others)
+- Justification for knowledge embedding strategies
+- Visualization of training dynamics
+
+Note:
+-------
+Not all results are directly included in the paper due to space limitations. 
+This folder provides the full set of experimental evidence for transparency and reproducibility.
+
